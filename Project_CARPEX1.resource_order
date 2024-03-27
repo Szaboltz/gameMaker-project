@@ -16,5 +16,10 @@
     {"name":"Sons","order":3,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_enemy_bullet","order":1,"path":"objects/obj_enemy_bullet/obj_enemy_bullet.yy",},
+    {"name":"obj_manager","order":2,"path":"objects/obj_manager/obj_manager.yy",},
+    {"name":"bullet_sprite","order":1,"path":"sprites/bullet_sprite/bullet_sprite.yy",},
+    {"name":"fundov4","order":2,"path":"sprites/fundov4/fundov4.yy",},
+  ],
 }
