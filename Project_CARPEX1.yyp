@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Anotações","folderPath":"folders/Anotações.yy","name":"Anotações","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Caminhos","folderPath":"folders/Caminhos.yy","name":"Caminhos","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -34,7 +34,13 @@
   },
   "name":"Project_CARPEX1",
   "resources":[
+    {"id":{"name":"obj_enemy_bullet","path":"objects/obj_enemy_bullet/obj_enemy_bullet.yy",},},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
+    {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"bullet_sprite","path":"sprites/bullet_sprite/bullet_sprite.yy",},},
+    {"id":{"name":"enemy_sprite","path":"sprites/enemy_sprite/enemy_sprite.yy",},},
+    {"id":{"name":"fundov4","path":"sprites/fundov4/fundov4.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
