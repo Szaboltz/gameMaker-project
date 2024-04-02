@@ -1,3 +1,5 @@
+var teste = 0;
+
 // Número de inimigos por fileira
 var num_inimigos = 5;
 
