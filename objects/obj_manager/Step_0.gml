@@ -6,7 +6,7 @@ var _rightMost = 0;
 
 // Encontra os inimigos mais à esquerda e mais à direita
 with (obj_enemy) {
-    if (x < _leftMost) {
+    if (x  < _leftMost) {
         _leftMost = x;
     }
     if (x + sprite_width > _rightMost) {
