@@ -1,6 +1,3 @@
-var teste = 0;
-var teste02 = 3213123
-
 // Número de inimigos por fileira
 var _num_inimigos = 5;
 
@@ -10,9 +7,17 @@ var _espaco_vertical = 10;
 // Altura inicial da primeira fileira
 var _altura_inicial = 0;
 
-var _largura_inimigo = sprite_get_width(enemy_sprite); // Variavel com largura do sprite
+// Pega o tamanho do objeto do inimigo
+var _largura_inimigo = sprite_get_width(enemy_sprite); 
 
-var _espaco_horizontal = (room_width - (_num_inimigos * _largura_inimigo)) / (_num_inimigos + 1);
+// Calcula o espeço da tela onde não haverá inimigos
+var _espaco_sem_inimigo = room_width - (_num_inimigos * _largura_inimigo);
+
+// Calcula a quantidade de espaços entre inimigos
+var _quantidade_espaco = (_num_inimigos + 1)
+
+// Calcula o tamanho do espaço entre cada inimigo
+var _espaco_horizontal = (_espaco_sem_inimigo / _quantidade_espaco);
 
     for (var _i = 0; _i < _num_inimigos; _i++) {
         // Calcula a posição x do inimigo com base no índice e no espaçamento
