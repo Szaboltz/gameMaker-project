@@ -4,4 +4,5 @@
 global.direction = 1; 
 global.velocidade = 2;
 
+
 // global.enemy_cooldown = 

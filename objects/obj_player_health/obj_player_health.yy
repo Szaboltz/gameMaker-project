@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy_bullet",
+  "%Name":"obj_player_health",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_enemy_bullet",
+  "name":"obj_player_health",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -31,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"bullet_sprite",
-    "path":"sprites/bullet_sprite/bullet_sprite.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
