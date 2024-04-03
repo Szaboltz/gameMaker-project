@@ -3,6 +3,7 @@
 
 global.direction = 1; 
 global.velocidade = 2;
+global.totalEnemis = 5;
 
 
 // global.enemy_cooldown = 

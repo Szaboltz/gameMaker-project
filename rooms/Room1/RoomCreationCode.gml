@@ -24,3 +24,5 @@ var _espaco_horizontal = (room_width - (_num_inimigos * _largura_inimigo)) / (_n
         // Cria o inimigo
         instance_create_layer(x, y, "Instances", obj_enemy);
     }
+	
+instance_create_layer(room_width / 2, room_height - 50, "Instances", obj_player);

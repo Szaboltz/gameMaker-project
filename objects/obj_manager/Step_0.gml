@@ -22,3 +22,7 @@ if (_rightMost >= room_width || _leftMost <= 0) {
         y += 10; // Ajuste conforme necessário
     }
 }
+
+if (global.totalEnemis <= 0) {
+	room_goto(Win)
+}
