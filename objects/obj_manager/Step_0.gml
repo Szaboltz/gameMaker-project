@@ -1,4 +1,4 @@
-  // Assume que todos os inimigos são do mesmo tamanho e começam a mover-se para a direita
+   // Assume que todos os inimigos são do mesmo tamanho e começam a mover-se para a direita
 var _left_most = room_width;
 var _right_most = 0; 
 
