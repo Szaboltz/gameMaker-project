@@ -8,7 +8,7 @@ if keyboard_check(vk_left) {
 last_shot += 1;
 if (last_shot >= cooldown) {
 	if keyboard_check_pressed(vk_space) {
-		instance_create_layer(x, y - 40, "instances", obj_player_bullet);
+		instance_create_layer(x, y, "instances", obj_player_bullet);
 		last_shot=0;
 	}
 }

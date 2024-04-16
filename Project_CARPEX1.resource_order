@@ -18,13 +18,14 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_enemy_bullet","order":1,"path":"objects/obj_enemy_bullet/obj_enemy_bullet.yy",},
+    {"name":"obj_enemy","order":6,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_manager","order":2,"path":"objects/obj_manager/obj_manager.yy",},
     {"name":"obj_player_bullet","order":4,"path":"objects/obj_player_bullet/obj_player_bullet.yy",},
     {"name":"obj_player_health","order":5,"path":"objects/obj_player_health/obj_player_health.yy",},
     {"name":"obj_player","order":3,"path":"objects/obj_player/obj_player.yy",},
-    {"name":"obj_enemy","order":6,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"bullet_sprite","order":1,"path":"sprites/bullet_sprite/bullet_sprite.yy",},
     {"name":"fundov4","order":2,"path":"sprites/fundov4/fundov4.yy",},
-    {"name":"player_sprite","order":3,"path":"sprites/player_sprite/player_sprite.yy",},
+    {"name":"spr_enemy","order":4,"path":"sprites/spr_enemy/spr_enemy.yy",},
+    {"name":"spr_player","order":3,"path":"sprites/spr_player/spr_player.yy",},
   ],
 }

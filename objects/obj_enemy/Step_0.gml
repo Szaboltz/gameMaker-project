@@ -12,7 +12,7 @@ if (_descer) {
 }
  
 if random(5000) < 4 {
-    instance_create_layer(x + 85, y + 100, "Instances", obj_enemy_bullet);
+    instance_create_layer(x + 50, y + 50, "Instances", obj_enemy_bullet);
 }
 
 

@@ -1,14 +1,11 @@
 // Número de inimigos por fileira
 var _num_inimigos = 5;
 
-// Espaço vertical entre as fileiras
-var _espaco_vertical = 10;
-
 // Altura inicial da primeira fileira
-var _altura_inicial = 0;
+var _altura_inicial = 30;
 
 // Pega o tamanho do objeto do inimigo
-var _largura_inimigo = sprite_get_width(enemy_sprite); 
+var _largura_inimigo = sprite_get_width(spr_enemy); 
 
 // Calcula o espeço da tela onde não haverá inimigos
 var _espaco_sem_inimigo = room_width - (_num_inimigos * _largura_inimigo);
